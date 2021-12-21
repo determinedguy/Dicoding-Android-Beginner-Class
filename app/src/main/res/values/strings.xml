@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">DicodingAndroidBeginner</string>
+    <string name="app_name">Top 10 Programming Languages in 2021</string>
+
+    <string name="profile">Profil</string>
+
+    <string name="my_name">Muhammad Athallah</string>
+    <string name="my_email">mhd.athallah@gmail.com</string>
+
+    <string name="language_name">Nama</string>
+    <string name="language_user">Jumlah Pengguna</string>
+    <string name="language_detail">Detail</string>
+    <string name="language_overview">Deskripsi</string>
+
+    <string name="title_detail">Disusun oleh \nLevel \nTeknologi \nEstimasi \nWebsite \n \nModul </string>
+    <string name="title_about_detail">Contact Person \n  \nLinkedIn \n \nDicoding \n </string>
+    <string name="about_detail">\n \nhttps://www.linkedin.com/in/mhd-athallah/  \nhttps://www.dicoding.com/users/mhdathallah </string>
+    <string name="content_overview">Content Overview</string>
+    <string name="content_detail">Content Detail</string>
 </resources>
