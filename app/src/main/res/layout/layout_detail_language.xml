@@ -26,30 +26,22 @@
             android:layout_marginLeft="16dp"
             android:layout_marginBottom="16dp"/>
 
-        <LinearLayout
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal"
             android:layout_gravity="center_horizontal"
-            android:layout_marginRight="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginBottom="16dp"
+            android:src="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_item_user"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/img_item_photo"
-                android:layout_width="140dp"
-                android:layout_height="140dp"
-                android:layout_marginRight="16dp"
-                android:src="@android:color/darker_gray"/>
-
-            <TextView
-                android:id="@+id/tv_item_user"
-                android:text="@string/language_user"
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:text="@string/language_user" />
 
         <TextView
             android:text="@string/language_detail"
@@ -82,7 +74,7 @@
                     android:id="@+id/textView"
                     android:text="@string/title_detail"
                     android:textColor="@android:color/black"
-                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
