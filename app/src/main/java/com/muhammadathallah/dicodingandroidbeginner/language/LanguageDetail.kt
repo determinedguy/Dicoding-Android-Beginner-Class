@@ -29,8 +29,6 @@ class LanguageDetail : AppCompatActivity() {
         val tOverview = intent.getStringExtra(EXTRA_OVERVIEW)
         val tUser = intent.getStringExtra(EXTRA_USER)
 
-
-
         tvSetName.text = tName
         Glide.with(this)
             .load(tImg)
